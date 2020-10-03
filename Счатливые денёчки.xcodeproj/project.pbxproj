@@ -13,6 +13,8 @@
 		52528C632476DA1200DC0ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52528C612476DA1200DC0ED2 /* Main.storyboard */; };
 		52528C652476DA1400DC0ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52528C642476DA1400DC0ED2 /* Assets.xcassets */; };
 		52528C682476DA1400DC0ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52528C662476DA1400DC0ED2 /* LaunchScreen.storyboard */; };
+		52528C702476E02100DC0ED2 /* MemoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52528C6F2476E02100DC0ED2 /* MemoriesViewController.swift */; };
+		52528C722476E06E00DC0ED2 /* MemoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52528C712476E06E00DC0ED2 /* MemoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		52528C642476DA1400DC0ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52528C672476DA1400DC0ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52528C692476DA1400DC0ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52528C6F2476E02100DC0ED2 /* MemoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesViewController.swift; sourceTree = "<group>"; };
+		52528C712476E06E00DC0ED2 /* MemoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				52528C5D2476DA1200DC0ED2 /* SceneDelegate.swift */,
 				52528C5F2476DA1200DC0ED2 /* ViewController.swift */,
 				52528C612476DA1200DC0ED2 /* Main.storyboard */,
+				52528C6F2476E02100DC0ED2 /* MemoriesViewController.swift */,
+				52528C712476E06E00DC0ED2 /* MemoryCell.swift */,
 				52528C642476DA1400DC0ED2 /* Assets.xcassets */,
 				52528C662476DA1400DC0ED2 /* LaunchScreen.storyboard */,
 				52528C692476DA1400DC0ED2 /* Info.plist */,
@@ -141,6 +147,8 @@
 				52528C602476DA1200DC0ED2 /* ViewController.swift in Sources */,
 				52528C5C2476DA1200DC0ED2 /* AppDelegate.swift in Sources */,
 				52528C5E2476DA1200DC0ED2 /* SceneDelegate.swift in Sources */,
+				52528C702476E02100DC0ED2 /* MemoriesViewController.swift in Sources */,
+				52528C722476E06E00DC0ED2 /* MemoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,10 +299,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ua.com.kr.ssh.happyDays.------------------";
+				PRODUCT_BUNDLE_IDENTIFIER = ua.com.kr.ssh.happyDays;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,10 +317,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ua.com.kr.ssh.happyDays.------------------";
+				PRODUCT_BUNDLE_IDENTIFIER = ua.com.kr.ssh.happyDays;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
